@@ -23,7 +23,7 @@ weatherFrom.addEventListener('submit',(e)=>{
             messageTwo.textContent = data.error
         }else{
             messageOne.textContent = data.forecast
-            messageTwo.textContent = data.location
+            messageTwo.textContent =  'In '+ data.location + ' it is ' + data.temperature
         }
         
     })
