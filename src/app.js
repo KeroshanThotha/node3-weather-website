@@ -58,7 +58,7 @@ app.get('/weather',(req,res)=>{
            res.send({
                location:geocodeData.location,
                forecast:data.description,
-               temperature:data.temperature + ' Degrees celsius TEST'
+               temperature:data.temperature + ' Degrees celsius'
            })
        }) 
     })
